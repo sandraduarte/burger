@@ -1,0 +1,32 @@
+{
+  "name": "burger",
+  "version": "1.0.0",
+  "description": "A Restaurant app that lets users input the names of burgers they'd like to eat.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sandraduarte/burger.git"
+  },
+  "keywords": [
+    "handlebars",
+    "body-parser",
+    "mysql",
+    "method-override"
+  ],
+  "author": "S.Duarte",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sandraduarte/burger/issues"
+  },
+  "homepage": "https://github.com/sandraduarte/burger#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "express-handlebars": "^3.0.0",
+    "method-override": "^2.3.6",
+    "mysql": "^2.11.1"
+  }
+}
